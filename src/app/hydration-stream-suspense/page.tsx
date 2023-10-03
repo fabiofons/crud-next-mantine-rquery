@@ -9,8 +9,8 @@ const fallbackMessage = () => (
 const HydrationStreamSuspense = () => {
   return (
     <Container style={{ maxWidth: 1220, margin: "auto" }}>
+      <Title>Usersssss</Title>
       <Suspense fallback={fallbackMessage()}>
-        <Title>Usersssss</Title>
         <ListItems />
       </Suspense>
     </Container>
