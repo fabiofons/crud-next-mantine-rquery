@@ -1,9 +1,10 @@
 import Providers from "@/utils/provider";
-import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { MantineProvider } from "@mantine/core";
+import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import { theme } from "../../theme";
+
+import "@mantine/core/styles.css";
 
 const inter = Poppins({
   weight: ["300", "400", "500", "600", "700"],
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <ColorSchemeScript />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"

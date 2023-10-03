@@ -1,8 +1,10 @@
 "use client";
 
-import { Image } from "@mantine/core";
+import { Flex, Image, SimpleGrid, Title, Pill } from "@mantine/core";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
+
+import classes from "./ListItem.module.css";
 
 type User = {
   name: string;
@@ -36,29 +38,27 @@ const ListItems = () => {
 
   return (
     <>
-      <p>{count}</p>
+      <Pill mb={20}>{count}</Pill>
       {
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr 1fr 1fr",
-            gap: 20,
-          }}
-        >
+        <SimpleGrid cols={{ base: 1, sm: 2, lg: 4 }}>
           {data?.map((user) => (
-            <div
+            <Flex
+              direction="column"
+              align="center"
               key={user.id}
-              style={{ border: "1px solid #ccc", textAlign: "center" }}
+              className={classes.card}
             >
               <Image
                 src={`https://robohash.org/${user.id}?set=set2&size=180x180`}
                 style={{ height: 180, width: 180 }}
                 alt={user.name}
               />
-              <h3>{user.name}</h3>
-            </div>
+              <Title order={3} m={10}>
+                {user.name}
+              </Title>
+            </Flex>
           ))}
-        </div>
+        </SimpleGrid>
       }
     </>
   );
