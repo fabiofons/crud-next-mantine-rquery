@@ -1,4 +1,4 @@
-import ListItems from "@/components/ListItems";
+import ListItems from "@/app/hydration-stream-suspense/HydrationStreamListItems";
 import { Container, Title } from "@mantine/core";
 import { Suspense } from "react";
 
@@ -8,8 +8,8 @@ const fallbackMessage = () => (
 
 const HydrationStreamSuspense = () => {
   return (
-    <Container style={{ maxWidth: 1220, margin: "auto" }}>
-      <Title>Usersssss</Title>
+    <Container>
+      <Title>Users (Using hydration streaming with Suspense )</Title>
       <Suspense fallback={fallbackMessage()}>
         <ListItems />
       </Suspense>
