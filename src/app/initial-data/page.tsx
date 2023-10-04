@@ -20,7 +20,7 @@ const queryInitialData = async () => {
   const users = await getUsers();
   return (
     <Container>
-      <Title>Users using (initial data)</Title>
+      <Title my={40}>Users using (initial data)</Title>
       <InitialDataListItems data={users} />
     </Container>
   );

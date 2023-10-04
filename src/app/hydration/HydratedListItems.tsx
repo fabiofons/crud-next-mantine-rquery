@@ -1,7 +1,8 @@
 "use client";
+import UsersList from "@/components/UsersList";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import UsersList from "../../components/UsersList";
+import React from "react";
 
 type User = {
   id: number;
@@ -15,13 +16,12 @@ const getUsers = async () => {
   return res.data;
 };
 
-const InitialDataListItems = ({ data: users }: { data: User[] }) => {
+const HydratedListItems = () => {
   const { data } = useQuery({
-    queryKey: ["initial-data"],
+    queryKey: ["hydrated-users"],
     queryFn: () => getUsers(),
-    initialData: users,
   });
-  return <UsersList data={data} />;
+  return data ? <UsersList data={data} /> : null;
 };
 
-export default InitialDataListItems;
+export default HydratedListItems;

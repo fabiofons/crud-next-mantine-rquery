@@ -9,7 +9,7 @@ const fallbackMessage = () => (
 const HydrationStreamSuspense = () => {
   return (
     <Container>
-      <Title>Users (Using hydration streaming with Suspense )</Title>
+      <Title my={40}>Users (Using hydration streaming with Suspense )</Title>
       <Suspense fallback={fallbackMessage()}>
         <ListItems />
       </Suspense>
