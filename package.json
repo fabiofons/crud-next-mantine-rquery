@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -19,9 +19,10 @@
     "@tanstack/react-query-next-experimental": "^5.0.0-alpha.80",
     "axios": "^1.5.1",
     "dayjs": "^1.11.10",
-    "next": "latest",
+    "next": "^13.5.4",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "latest",

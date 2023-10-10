@@ -1,9 +1,9 @@
 import Link from "next/link";
-import styles from "./page.module.css";
+import { Container } from "@mantine/core";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Container>
       <h1>Testing new app directory (NextJS) + tanstack + react query</h1>
       <p>by FF</p>
       <p>
@@ -22,6 +22,6 @@ export default function Home() {
           Prefetching Using Hydration --- Good for SEO
         </Link>
       </p>
-    </div>
+    </Container>
   );
 }

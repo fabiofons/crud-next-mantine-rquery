@@ -1,0 +1,162 @@
+{
+  "expenses": [
+    {
+      "id": 48,
+      "filename": "fwdfwdfwfw",
+      "amount": "34.0",
+      "payed_at": "09/25/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzRCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3a8a031e3197d488d9da1519908a5a486552d443/fwdfwdfwfw",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 4,
+        "name": "Medical",
+        "color": "#F783AC",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 25,
+      "filename": "New expense test 5",
+      "amount": "210.0",
+      "payed_at": "09/05/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a4ff8dd7b971804664b6218ec99a0d5f895bcbc9/New%20expense%20test%205",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 7,
+        "name": "Giving",
+        "color": "#748FFC",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 26,
+      "filename": "New expense test 6",
+      "amount": "50.0",
+      "payed_at": "09/06/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b0593e626d59781abc021b476e2dce0a44422987/New%20expense%20test%206",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 7,
+        "name": "Giving",
+        "color": "#748FFC",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 27,
+      "filename": "New expense test 7",
+      "amount": "79.0",
+      "payed_at": "09/02/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZkk9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--65ab5c66ae3a3900886b2500d1810b12013190f6/New%20expense%20test%207",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 8,
+        "name": "Utilities",
+        "color": "#4DABF7",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 28,
+      "filename": "New expense test 8",
+      "amount": "79.0",
+      "payed_at": "09/20/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZk09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6745c45bec91b81e2470b5e66cdabcbdc8aa0062/New%20expense%20test%208",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 5,
+        "name": "Housing/Rent",
+        "color": "#DA77F2",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 7,
+      "filename": "New expense test 1",
+      "amount": "275.0",
+      "payed_at": "09/05/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZHc9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e81eaac0f9257d42d577e28ca183b6ec2ebed63f/New%20expense%20test%201",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 7,
+        "name": "Giving",
+        "color": "#748FFC",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 29,
+      "filename": "New expense test 9",
+      "amount": "39.0",
+      "payed_at": "09/04/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZlE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5b1f8c1ac098f4762411eee1ad2b7ea84d509b8e/New%20expense%20test%209",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 4,
+        "name": "Medical",
+        "color": "#F783AC",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 11,
+      "filename": "new receipt 1645",
+      "amount": "170.0",
+      "payed_at": "08/01/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZUU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fcadd79db95f23cb57e5e13eabae2a74e920ce77/new%20receipt%201645",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 5,
+        "name": "Housing/Rent",
+        "color": "#DA77F2",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 30,
+      "filename": "New expense test 10",
+      "amount": "98.0",
+      "payed_at": "09/08/2023",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZlU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f1830c3378c002eb0c6d91365ed2b66433dfe9f2/New%20expense%20test%2010",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 5,
+        "name": "Housing/Rent",
+        "color": "#DA77F2",
+        "kind": "individual",
+        "enabled": true
+      }
+    },
+    {
+      "id": 4,
+      "filename": "test2",
+      "amount": "650.0",
+      "payed_at": "08/07/2023T19:39:13.049Z",
+      "expense_file_url": "http://backend-staging.ppt.koombea.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZGs9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--06b726b03f4503cd2bc2c76fc05b61331377a1e0/test2",
+      "file_size": 46142,
+      "label_expense": {
+        "id": 9,
+        "name": "Pets",
+        "color": "#3BC9DB",
+        "kind": "individual",
+        "enabled": true
+      }
+    }
+  ],
+  "pagination": {
+    "count": 24,
+    "page": 1,
+    "items": 10,
+    "pages": 3,
+    "prev": null,
+    "next": 2
+  }
+}

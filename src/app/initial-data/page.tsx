@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 import { Container, Title } from "@mantine/core";
-import UsersList from "@/components/UsersList";
 import InitialDataListItems from "@/app/initial-data/InitialDataListItems";
 
 type User = {

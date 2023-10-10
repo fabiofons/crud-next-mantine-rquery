@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Note that these styles are not scoped and
+   will be applied to all TextInput components */
+.mantine-InputWrapper-root {
+  margin-top: 0.8rem;
+}
+
+.mantine-Input-input {
+  border-radius: 12px;
+}
+
+form {
+  border: 1px solid var(--mantine-color-gray-3);
+  padding: 12px;
+  border-radius: 16px;
+  margin: 12px 0;
+}
+
+.mantine-Modal-content {
+  border-radius: 16px;
+}

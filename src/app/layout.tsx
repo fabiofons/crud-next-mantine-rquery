@@ -5,6 +5,8 @@ import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import { theme } from "../../theme";
 
 import "@mantine/core/styles.css";
+import "@mantine/dates/styles.css";
+import "./globals.css";
 
 const inter = Poppins({
   weight: ["300", "400", "500", "600", "700"],
